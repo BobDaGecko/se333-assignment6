@@ -1,4 +1,4 @@
-# Assignment 5 - UI Testing
+# Assignment 6 - UI Testing
 
 **Student:** Kellen Siczka  
 **Course:** SE333 - Software Testing  
