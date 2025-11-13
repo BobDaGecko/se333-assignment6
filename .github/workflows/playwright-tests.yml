@@ -36,10 +36,18 @@ jobs:
           path: target/surefire-reports/
           retention-days: 30
 
-      - name: Upload Playwright videos
+      - name: Upload Playwright videos (Traditional)
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: playwright-videos
+          name: playwright-videos-traditional
           path: videos/
+          retention-days: 30
+
+      - name: Upload Playwright videos (AI-Generated)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-videos-ai
+          path: videos-ai/
           retention-days: 30
