@@ -1,3 +1,4 @@
+# Provided Assignment Instructions
 Assignment_6_Instructions.md
 
 # Maven
@@ -29,6 +30,7 @@ hs_err_pid*
 
 # Playwright
 videos/
+videos-ai/
 test-results/
 playwright-report/
 .playwright/
@@ -40,4 +42,10 @@ Thumbs.db
 # Logs
 *.log
 
+# Node
 node_modules/
+package-lock.json
+
+# AI Generated Debug/Development Documentation
+AI_TEST_FIXES.md
+MCP_COMPLETION_SUMMARY.md
